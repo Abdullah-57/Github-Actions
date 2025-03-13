@@ -1,5 +1,5 @@
 import request from 'supertest';
-import app from '../index.js'; // Ensure you are importing your Express app
+import app from '../index.js';
 
 describe('Event Planner API', () => {
     it('should register a new user', async () => {
